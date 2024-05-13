@@ -1,0 +1,18 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "This repository is intended to create assignment by hotwax\r Step1- creating database using mysql\r Using Mysql on docker container.\r Staring containter -\r `docker pull mysql`\r `docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 -d mysql`\r Connecting to sql using gui client\r `root`\r `password`\r creating a db\r CREATE DATABASE hotwax\r SHOW databases\r USE hotwax",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "moment": "^2.30.1",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.0"
+  }
+}
